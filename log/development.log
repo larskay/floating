@@ -25808,3 +25808,93 @@ ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   Rendered /home/antlak/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
   Rendered /home/antlak/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
   Rendered /home/antlak/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/bookings.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/footer-distributed-with-contact-form.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/companydeals.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/giftcards.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/companydeals.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/bookings.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/giftcards.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
