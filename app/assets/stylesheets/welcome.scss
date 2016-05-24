@@ -1,0 +1,82 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.ocean {
+    background-image: url("/images/ocean.jpg");
+    width: 90%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 6%;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    position: relative;
+    top: -80px;
+}
+ul li{
+    font: normal 12px "Cookie", cursive;
+}
+.jumbotron {
+    padding-bottom: 0px;
+}
+.tank-image {
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    top: 225px;
+    left: 135px;
+    border-radius: 23px;
+}
+.ocean h3 {
+    margin: 15% 39% 30%;
+    color: #ffffff;
+    font: normal 400%'Cookie', cursive;
+}
+.notice {
+    background-color: #99FF99;
+    height: 50px;
+    border-radius: 0 0 5px 5px;
+    z-index: 1050;
+    position: relative;
+    p {
+        font-size: 23px;
+        margin-left: 45%;
+        color: white;
+    }
+}
+.panel-title, .navbar-nav, .panel-body p {
+    font: normal 14px'Cookie', cursive;
+}
+.panel-default {
+    margin-left: 22%;
+    width: 50%;
+}
+@media screen and (max-width: 480px) {
+    .panel.panel-default {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .tank-image {
+        top: 203px;
+        left: 85px;
+    }
+    .ocean h3 {
+        margin: 15% 3% 0%;
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+    .panel.panel-default {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .tank-image {
+        top: 195px;
+        left: 137px;
+    }
+    .ocean h3 {
+        margin: 15% 3% 0%;
+        font-size: 33px;
+    }
+
+}

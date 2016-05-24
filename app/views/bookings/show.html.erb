@@ -1,0 +1,49 @@
+<script type="text/javascript">
+  $(document).ready(function(){
+    // $(".active")[0].className = ""
+    document.getElementById("booking").className = "active"
+  })
+</script>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Bestilling av time</h3>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <%= form_tag do %>
+        <%= text_field_tag "email", nil, :class => "form-control", placeholder: 'Skriv inn emailen din' %><br>
+        <%= text_field_tag "navn", nil, :class => "form-control", placeholder: 'Skriv inn navnet ditt' %><br>
+        <%= text_field_tag "tlf", nil, :class => "form-control", placeholder: 'Skriv inn tlf nr ditt' %>
+        <div class="radio">
+          <label>
+            <%= check_box_tag "dagtid", "dagtid" %>
+            Kan du komme på dagtid, får du raskere time
+          </label><br>
+          <label>
+            <%= check_box_tag "kveld", "kveld" %>
+            Eller kan du bare ettermidag/kveld
+          </label>
+        </div>
+        <label>Dager som passer deg best</label>
+        <%= select_tag "dager", options_for_select(["Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag"], "Musikk varihet"), {:class => 'form-control'} %>
+        <label>Velg ønsket klokkeslett</label>
+        <%= select_tag "klokkeslett", options_for_select([ "09:00", "10:30", "12:00", "13:30", "15:00", "16:30", "18:00"], "Klokkeslett"), {:class => 'form-control'} %>
+        <%= button_tag "Send forespørsel", :class => "btn btn-success booking-submit" %>
+      <% end %>
+    </ul>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+      <h3 class="panel-title">Annen info</h3>
+    </div>
+    <div class="panel-body">
+    <ul>
+      <li>Du kan også bestille time ved sende mail til <a href="mailto:monicamvik@hotamil.com">Monica Vik</a></li>
+      <li>Gå inn på facebook <a href="https://www.facebook.com/flytetankbehandling">Flytetannkbehandling</a> og send en melding her.</li>
+      <li>Husk å lik siden våres</li>
+      <li>Ringe/SMS på mobil +47 40 20 13 58</li>
+      <li>Du kan også sende en melding via kontakt skjema nedenfor</li>
+    </ul>
+  </div>
+</div>

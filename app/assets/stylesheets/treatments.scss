@@ -1,0 +1,19 @@
+// Place all the styles related to the treatments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.article {
+    background-image: url("/images/monicaflyt.jpg");
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    /*margin-left: 6%;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    position: relative;
+    top: -80px;*/
+}
+.article-link:link{
+  text-decoration: none;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FloatHouse Rogaland</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Jura" />
+  <link href='https://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <% if flash[:notice] %>
+    <div class="notice"><p><%= flash[:notice] %></p></div>
+  <% end %>
+<div class="jumbotron" style="margin-bottom: 0px;height: 467px;">
+  <div class="ocean footer-left">
+    <h3>Float<span style="color: #000000;">House
+      <br><span style="margin-left: 10%;">Rogaland</span>
+    </span></h3>
+  </div>
+  <img class="tank-image" src="/images/flytetank.jpg"></div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div style="margin-left: 20.5%" class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><span style="color: #5383d3;">Float</span><span style="color: #000000;">House</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li id="main"><a id= "mainlink" href="/">Forside <span class="sr-only">(current)</span></a></li>
+        <li id="treatment"><a id="treatmentlink" href="<%= treatment_url %>">Behandling</a></li>
+        <li id="booking"><a id="bookinglink" href="<%= booking_url %>">Timebestilling</a></li>
+        <li id="gift"><a id="giftlink" href="<%= giftcard_url %>">Gavekort</a></li>
+        <li id="price"><a id="pricelink" href="<%= price_url %>">Priser</a></li>
+        <li id="video"><a id="videolink" href="<%= video_url %>">Video</a></li>
+        <li id="company"><a id = "companylink" href="<%= companydeal_url %>">Bedriftsavtale</a></li>
+        <li id="maps"><a id = "maplink" href="<%= map_url %>">Hvor finner du oss</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<%= yield %>
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Float<span>House</span> Rogaland</h3>
+
+        <p class="footer-links">
+          <a href="/">Forside</a>
+          ·
+          <a href="<%= treatment_url %>">Behandling</a>
+          ·
+          <a href="<%= booking_url %>">Timebestilling</a>
+          ·
+          <a href="<%= giftcard_url %>">Gavekort</a>
+          ·
+          <a href="<%= price_url %>">Priser</a>
+          ·
+          <a href="<%= campaign_url %>">Kampanje</a>
+          ·
+          <a href="<%= video_url %>">Videoer</a>
+          ·
+          <a href="<%= companydeal_url %>">Bedriftsavtale</a>
+        </p>
+
+        <p class="footer-company-name">FloatHouse Rogaland &copy; <%= Time.now.year %></p>
+        <p class="footer-company-name">Norwegian Outlet, Ole Nielsens vei 13, 4330 Ålgård</p>
+
+        <div class="footer-icons">
+
+          <a href="https://www.facebook.com/flytetankbehandling"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p>Kontakt Oss</p>
+
+        <form action="/contacts/new" method="get">
+
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <%= button_to "Send", new_contact_path %>
+        </form>
+
+      </div>
+
+    </footer>
+</body>
+</html>
