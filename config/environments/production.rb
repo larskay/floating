@@ -41,7 +41,9 @@ Floating::Application.configure do
     :user_name            => 'monicamvik@hotmail.com',
     :password             => 'Flytetank1',
     :authentication       => 'plain',
-    :enable_starttls_auto => true  
+    :enable_starttls_auto => true,
+    :openssl_verify_mode => 'none',
+    :domain => 'https://floathouserogaland.herokuapp.com/',  
   }
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
