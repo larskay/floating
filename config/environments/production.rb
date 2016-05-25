@@ -35,7 +35,14 @@ Floating::Application.configure do
 
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
-
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.live.com",
+    :port                 => 587,
+    :user_name            => 'monicamvik@hotmail.com',
+    :password             => 'Flytetank1',
+    :authentication       => 'plain',
+    :enable_starttls_auto => true  
+  }
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx

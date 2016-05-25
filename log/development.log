@@ -25898,3 +25898,250 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-05-24 21:30:58 +03
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0" for 127.0.0.1 at 2016-05-24 21:30:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/bookings.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/footer-distributed-with-contact-form.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/companydeals.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/giftcards.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/bookings.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/companydeals.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/giftcards.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0" for 127.0.0.1 at 2016-05-25 17:07:36 +0300
+
+
+Started GET "/booking" for 127.0.0.1 at 2016-05-25 17:07:38 +0300
+Processing by BookingsController#show as HTML
+  Rendered bookings/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/booking" for 127.0.0.1 at 2016-05-25 17:07:38 +0300
+Processing by BookingsController#show as HTML
+  Rendered bookings/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/booking" for 127.0.0.1 at 2016-05-25 17:07:46 +0300
+Processing by BookingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JImgNgHZt1oq626BLHJh2DfORNVIRnG84RN4rwLZ5KU=", "email"=>"lars@antenor.no", "navn"=>"Lars Antonio Kay", "tlf"=>"98430315", "dagtid"=>"dagtid", "dager"=>"Mandag", "klokkeslett"=>"09:00", "button"=>""}
+  Rendered contact_mailer/contact_mail.html.erb (0.5ms)
+
+Sent mail to monicamvik@hotmail.com (6.0ms)
+Date: Wed, 25 May 2016 17:07:47 +0300
+To: monicamvik@hotmail.com
+Message-ID: <5745b1b3108d0_4cc23fa1959cb7bc68650@ANT-LAK-PC.mail>
+Subject: Meliding fra flytetank siden
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Email:, </h1>
+    <p>
+      Melding: Hei Monica, Jeg har gjerne lyst =C3=A5 bestille time hos d=
+eg<br>.
+                Mitt navn er Lars Antonio Kay<br>
+                email: lars@antenor.no
+                tlf: 98430315<br>
+                kan p=C3=A5 dagtid<br>
+                dager som passer meg er Mandag<br>
+                og =C3=B8nsker klokken 09:00<br><br>
+                Mvh Lars Antonio Kay.<br>
+    </p>
+    <p>
+    </p>
+  </body>
+</html>=
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 238ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/bookings.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/footer-distributed-with-contact-form.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/companydeals.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/campaigns.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/maps.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/giftcards.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/treatments.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/prices.css?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/bookings.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/campaigns.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/companydeals.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/contact.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/maps.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/giftcards.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/prices.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/treatments.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont.woff2?v=4.5.0" for 127.0.0.1 at 2016-05-25 17:07:47 +0300
+
+
+Started GET "/treatment" for 127.0.0.1 at 2016-05-25 17:07:56 +0300
+Processing by TreatmentsController#show as HTML
+  Rendered treatments/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/booking" for 127.0.0.1 at 2016-05-25 17:13:12 +0300
+Processing by BookingsController#show as HTML
+  Rendered bookings/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
