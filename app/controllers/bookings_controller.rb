@@ -16,7 +16,7 @@ class BookingsController < ApplicationController
                 dager som passer meg er #{days}<br>
                 og ønsker klokken #{time}<br><br>
                 Mvh #{name}".html_safe
-    ContactMailer.contact_mail(@email, @message).deliver
+    ContactMailer.contact_mail(email, @message).deliver
     respond_to do |format|
       format.html { redirect_to root_path, notice: 'Melding ble sendt.' }
       format.json { head :no_content }
