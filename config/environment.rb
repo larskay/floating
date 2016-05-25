@@ -9,6 +9,6 @@ ActionMailer::Base.smtp_settings = {
 :user_name            => 'monicamvik@hotmail.com',
 :password             => 'Flytetank1',
 :authentication       => 'plain',
-:enable_starttls_auto => true
+:enable_starttls_auto => true,
 :openssl_verify_mode => 'none' 
 }
