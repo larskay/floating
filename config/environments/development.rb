@@ -10,14 +10,13 @@ Floating::Application.configure do
   config.eager_load = false
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.live.com",
+    :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => 'monicamvik@hotmail.com',
-    :password             => 'Flytetank1',
-    :authentication       => 'plain',
-    :enable_starttls_auto => true,
-    :openssl_verify_mode => 'none',
-    :domain => 'https://floathouserogaland.herokuapp.com/',  
+    :domain               => "gmail.com",
+    :user_name            => "larsakay77@gmail.com",
+    :password             => "ruby&rails",
+    :authentication       => :plain,
+    :enable_starttls_auto => true
   }  
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
