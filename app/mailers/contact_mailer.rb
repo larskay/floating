@@ -1,9 +1,9 @@
 class ContactMailer < ActionMailer::Base
-    default from: "monicamvik@hotmail.com"
+    default from: "larsakay77@gmail.com"
 
   def contact_mail(email, message)
     @email = email
     @message = message
-    mail(from: "monicamvik@hotmail.com", to: "monicamvik@hotmail.com", subject: 'Meliding fra flytetank siden')
+    mail(from: "larsakay77@gmail.com", to: "monicamvik@hotmail.com", subject: 'Meliding fra flytetank siden')
   end
 end
